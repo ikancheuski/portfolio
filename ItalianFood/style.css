@@ -132,37 +132,42 @@ body {
     color: #eaeaeb;
     transition: 0.6s;
 }
-.navbar{
+
+.navbar {
     margin-top: 30px;
 }
-.container__logo{
+
+.container__logo {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left:50px;
+    margin-left: 50px;
     margin-top: 200px;
     align-items: center;
 }
-.italian__food{
-    margin-top:70px;
+
+.italian__food {
+    margin-top: 70px;
     font-family: 'Homemade Apple';
     font-style: normal;
     font-weight: 400;
     font-size: 5em;
     color: white;
 }
-.title__company{
+
+.title__company {
     margin-top: 10px;
     color: whitesmoke;
     font-family: 'Homemade Apple';
     font-style: normal;
     font-weight: 400;
     font-size: 3em;
-    color:white; 
+    color: white;
 }
-.read__more{
+
+.read__more {
     background-color: whitesmoke;
-    margin-top: 10px;   
+    margin-top: 10px;
     border-radius: 10px;
     font-family: 'Oswald';
     font-style: normal;
@@ -173,25 +178,120 @@ body {
     width: 222px;
     height: 52px;
 }
-button:hover{
-    background-color:black;
+
+button:hover {
+    background-color: black;
     opacity: 0.6;
     transition: 0.5s;
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.our__menu{
+
+.our__menu {
     font-family: 'Homemade Apple';
     font-style: normal;
     font-weight: 400;
-    font-size:6em; 
+    font-size: 6em;
 }
-.annotation__menu{
+
+.annotation__menu {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 200;
-    font-size: 2em;   
+    font-size: 2em;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item__title {
+    padding-top: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.item__annotation {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.show__more {
+    margin-top: 60px;
+    background-color: #343434;
+    border-radius: 25px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    color: white;
+    border: none;
+    width: 222px;
+    height: 52px;
+}
+
+.black__wrapper {
+    padding: 50px;
+    margin-top: 60px;
+    background-color: #27292c;
+}
+
+.black__wrapper__title {
+    padding-top: 40px;
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
+
+.black__wrapper__annotation {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.4em;
+    padding-bottom: 50px;
+}
+
+.more__info {
+    background-color: white;
+    border-radius: 25px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    color: #343434;
+    border: none;
+    width: 222px;
+    height: 52px;
+    margin: 0 auto;
+    display: block;
+}
+
+.more__info:hover {
+    background-color: grey;
 }
