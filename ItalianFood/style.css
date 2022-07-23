@@ -336,3 +336,43 @@ button:hover {
     background-color: #27292c;
     color: white;
 }
+.gap__section{
+    background-image: url(img/section.png);
+    background-repeat: no-repeat;
+    height: 1400px;
+    background-size: cover;
+}
+.gap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gap__section__title{
+    margin-top:130px;
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    color: white;
+}
+.gap__section__annotation{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: white;
+    margin-top:40px;   
+    text-align: center;
+}
+.gap__section__line{
+    border-top: 7px solid #eaeaeb;
+    width: 180px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+img[alt="img"]{
+    
+    position: relative;
+    bottom: 470px;
+}
